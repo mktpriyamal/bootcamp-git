@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tutorials Point</title>
+    <script type="text/javascript">
+        function btnClickHandler(e) {
+            console.log(e);
+            let dataValue = e.getAttribute('data-id');
+            alert(dataValue);
+        }
+    </script>
+</head>
+
+<body style="height: 5000px;">
+    <h1>Sample text</h1>
+    <h2>Sample text 1</h2>
+    <h3>Sample text 2</h3>
+    <h4>Sample text 3</h4>
+    <h5>Sample text 4</h5>
+    <h6>Sample text 4</h6>
+    <p>This is Paragraph</p>
+    <p>This is Paragraph <small>small content</small> <b>Bold</b> </p>
+    <p>Some attributes are defined globally and can be used on any element, while others are defined
+        for specific elements only.</br> All attributes have a name and a value and look like as shown
+        below in the example.</p>
+    <hr>
+    <div>This is Paragraph</div>
+    <form action="">
+        <label for="first-name">Fist Name</label>
+        <input type="text" name="first-name" id="first-name" value="ABC" placeholder="First Name" maxlength="10"/>
+        <input type="checkbox" name="abc"/>
+        <input type="checkbox" name="abc"/>
+        <input type="checkbox" name="abc"/>
+        <input type="color"/>
+        <input type="email"/>
+        <input type="hidden"/>
+        <input type="file" accept="image/png"/>
+        <input type="datetime-local" />
+        <input type="date"/>
+        <input type="number" min="20" max="30"/>
+        <input type="password">
+        <input type="radio" name="age"/>
+        <input type="radio" name="age"/>
+        <input type="radio" name="age"/>
+        <input type="radio" name="age"/>
+        <input type="range"/>
+        <input type="button" value="Sample Button"/>
+        <input type="submit" value="Sample Button"/>
+        <textarea rows="5">thkjgh&#013;kdjtghd</textarea>
+    </form>
+    <table style="background-color: burlywood; width:100%;">
+        <thead style="background-color: aliceblue">
+        <tr>
+            <th rowspan="2" style="border: 1px solid black;">A</th>
+            <th rowspan="2" style="border: 1px solid black;">B</th>
+            <th rowspan="2" style="border: 1px solid black;">C</th>
+            <th rowspan="2" style="border: 1px solid black;">D</th>
+            <th colspan="2" style="border: 1px solid black;">E</th>
+            <th rowspan="2" style="border: 1px solid black;">F</th>
+            <th rowspan="2" style="border: 1px solid black;">G</th>
+            <th colspan="2" style="border: 1px solid black;"></th>
+        </tr>
+        <tr>
+            <th style="border: 1px solid black;">$</th>
+            <th style="border: 1px solid black;">%</th>
+            <th style="border: 1px solid black;">I</th>
+            <th style="border: 1px solid black;">J</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="id-1">
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td><button data-id="id-1" data-name="Thisara" onclick="btnClickHandler(this);">Delete</button></td>
+        </tr>
+
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <ul>
+        <li>heelo 2</li>
+        <li>heelo 1</li>
+        <li>heelo 3</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+    </ul>
+    <ol type="i">
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+        <li>heelo</li>
+    </ol>
+    <div draggable="true">ksufdgs iukfsd</div>
+    <a href="contact.html"> Contact Page</a>
+    <section id="sec-1" style="background-color: burlywood;height:10%"></section>
+    <section id="sec-2" style="background-color: brown;height:20%"></section>
+    <section id="sec-3" style="background-color: blue;height:30%"></section>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.bg-blue {
+    background-color: blue;
+}
+.bg-gold {
+    background-color: gold;
+}
+.text-bold{
+    font-weight: bold;
+}
+#hello-div{
+    font-size: xx-large;
+    color: aliceblue;
+}
+.parent-div{
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+.hello{
+    background: #3dd5f3;
+}
