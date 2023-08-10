@@ -20,4 +20,8 @@
     background: #3dd5f3;
     padding: 10px;
     border: 1px solid black;
+    width:100%;
+    font-weight:bold;
+    display:block;
+    font-family: aakar;
 }
